@@ -2,7 +2,7 @@
 
 # asdf-djinni ![Build](https://github.com/cross-language-cpp/asdf-djinni/workflows/Build/badge.svg) ![Lint](https://github.com/cross-language-cpp/asdf-djinni/workflows/Lint/badge.svg)
 
-[djinni](<TOOL HOMEPAGE>) plugin for the [asdf version manager](https://asdf-vm.com).
+[djinni](https://djinni.xlcpp.dev) plugin for the [asdf version manager](https://asdf-vm.com).
 
 </div>
 
@@ -23,10 +23,15 @@ Java, either on the system, or better, via some asdf-java
 Plugin:
 
 ```shell
-asdf plugin add djinni
-# or
-asdf plugin add https://github.com/cross-language-cpp/asdf-djinni.git
+asdf plugin add djinni https://github.com/cross-language-cpp/asdf-djinni.git
 ```
+
+or, once this plugin will be in the [asdf-plugin repo](https://github.com/asdf-vm/asdf-plugins)
+
+```shell
+asdf plugin add djinni https://github.com/cross-language-cpp/asdf-djinni.git
+```
+
 
 djinni:
 
@@ -47,6 +52,10 @@ asdf global djinni latest
 Check [asdf](https://github.com/asdf-vm/asdf) readme for more instructions on how to
 install & manage versions.
 
+# Why ?
+
+Because this is the most convenient way to install [djinni](https://djinni.xlcpp.dev)
+
 # Contributing
 
 Contributions of any kind welcome! See the [contributing guide](contributing.md).
@@ -55,4 +64,4 @@ Contributions of any kind welcome! See the [contributing guide](contributing.md)
 
 # License
 
-See [LICENSE](LICENSE) © [<YOUR NAME>](https://github.com/cross-language-cpp/)
+See [LICENSE](LICENSE) © [xlcpp](https://github.com/cross-language-cpp/)
