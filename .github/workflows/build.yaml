@@ -1,0 +1,32 @@
+name: PluginTest
+
+on:
+  push:
+    branches:
+      - main
+
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macOS-latest]
+        version: [0.1, 0.2.0]
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+
+      - name: Install asdf
+        run: |
+          git clone https://github.com/asdf-vm/asdf.git $HOME/asdf
+
+      - name: Test the plugin
+        run: |
+          . $HOME/asdf/asdf.sh
+          asdf plugin-test djinni $GITHUB_WORKSPACE 'djinni --help' --asdf-tool-version ${{matrix.version}}
