@@ -29,7 +29,7 @@ asdf plugin add djinni https://github.com/cross-language-cpp/asdf-djinni.git
 or, once this plugin will be in the [asdf-plugin repo](https://github.com/asdf-vm/asdf-plugins)
 
 ```shell
-asdf plugin add djinni https://github.com/cross-language-cpp/asdf-djinni.git
+asdf plugin djinni
 ```
 
 
