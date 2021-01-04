@@ -1,6 +1,6 @@
 <div align="center">
 
-# asdf-djinni ![Build](https://github.com/cross-language-cpp/asdf-djinni/workflows/Build/badge.svg) ![Lint](https://github.com/cross-language-cpp/asdf-djinni/workflows/Lint/badge.svg)
+# asdf-djinni ![Build](https://github.com/cross-language-cpp/asdf-djinni/workflows/Build/badge.svg?event=push&branch=main) ![Lint](https://github.com/cross-language-cpp/asdf-djinni/workflows/Lint/badge.svg?event=push&branch=main)
 
 [djinni](https://djinni.xlcpp.dev) plugin for the [asdf version manager](https://asdf-vm.com).
 
@@ -46,7 +46,7 @@ asdf install djinni latest
 asdf global djinni latest
 
 # Now djinni commands are available
-<TOOL CHECK>
+djinni --help
 ```
 
 Check [asdf](https://github.com/asdf-vm/asdf) readme for more instructions on how to
