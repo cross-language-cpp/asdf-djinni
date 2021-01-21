@@ -23,7 +23,7 @@ Java, either on the system, or better, via some asdf-java
 Plugin:
 
 ```shell
-asdf plugin djinni
+asdf plugin add djinni
 ```
 
 
